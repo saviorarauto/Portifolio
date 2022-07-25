@@ -1,0 +1,19 @@
+.about{
+    background-color: var(--azul-claro);
+}
+
+.about__paragraph{
+    line-height: 1.5;
+    margin-bottom: 1.2rem;
+}
+
+.signature{
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.assinatura-img{
+    width: 5rem;
+    height: auto;
+}

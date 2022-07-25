@@ -1,0 +1,78 @@
+.experience__section__title{
+    padding-top: 1.6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.experiencie__box{
+    padding: 3.2rem 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience__img{
+    min-height: 144px;
+    min-width: 296px;
+    width: 88vw;
+    height: 40vw;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 100%;
+}
+
+.experience__img--codificador{
+    background-image: url("../img/criptografar.JPG");
+}
+
+.experience__img--forca{
+    background-image: url("../img/forca.JPG");
+}
+
+.experience__box__info{
+    display: flex;
+    min-width: 296px;
+    width: 88vw;
+}
+
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.5;
+}
+
+.experience__description{
+    display: flex;
+    margin-right: 0.8rem;
+}
+
+.experience__repo{
+    margin-right: 1.6rem;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .experiencie__box{
+        flex-direction: row;
+        gap: 1.6rem;
+    }
+
+    .experiencie__box:nth-child(3){
+        flex-direction: row-reverse;
+    }
+
+    .experience__img{
+        flex-grow: 2;
+        width: 0;
+        height: 30vw;
+    }
+
+    .experience__box__info{
+        display: flex;
+        flex-grow: 1;
+        min-width: 296px;
+        width: 0;
+    }
+
+}
